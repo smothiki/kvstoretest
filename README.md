@@ -1,7 +1,9 @@
-### instructions to execute the code.
+### Instructions to execute the code.
 
 #### Prereqs
-docker required.
+docker required
+
+#### Running the program.
 using docker you can run the below command once you clone the code to a folder. 
 ```
 docker run  -p 8000:8000 -w /go/src/github.com/smothiki/testcode --cpus=1 --memory=1g -v $PWD:/go/src/github.com/smothiki/testcode golang go run *.go
